@@ -10,6 +10,8 @@
 	{% if user.is_authenticated %}
 
 		<a class="btn btn-info" href="{% url 'vista_agregar_producto' %}"> <li class="icon-plus"></li>Agregar un nuevo producto</a>
+		<a class="btn btn-info" href="{% url 'vista_agregar_producto' %}"> <li class="icon-plus"></li>Agregar una nueva marca</a>
+		<a class="btn btn-info" href="{% url 'vista_agregar_producto' %}"> <li class="icon-plus"></li>Agregar una nueva categoria</a>
 
 	{% endif %}    
 	{% if productos %}

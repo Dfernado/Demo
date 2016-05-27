@@ -10,8 +10,8 @@
 	{% if user.is_authenticated %}
 
 		<a class="btn btn-info" href="{% url 'vista_agregar_producto' %}"> <li class="icon-plus"></li>Agregar un nuevo producto</a>
-		<a class="btn btn-Success" href="{% url 'vista_agregar_marca' %}"> <li class="icon-plus"></li>Agregar una nueva marca</a>
-		<a class="btn btn-Danger" href="{% url 'vista_agregar_categoria' %}"> <li class="icon-plus"></li>Agregar una nueva categoria</a>
+		<a class="btn btn-info" href="{% url 'vista_agregar_marca' %}"> <li class="icon-plus"></li>Agregar una nueva marca</a>
+		<a class="btn btn-info" href="{% url 'vista_agregar_categoria' %}"> <li class="icon-plus"></li>Agregar una nueva categoria</a>
 
 	{% endif %}    
 	{% if productos %}

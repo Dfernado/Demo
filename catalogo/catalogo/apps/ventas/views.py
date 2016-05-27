@@ -37,7 +37,7 @@ def add_marca_view(request):
 			add.save()
 			formulario.save_m2m()
 			info = "Guardado Satisfactoriamente"
-			return httpResponseRedirect ('/marca/%'%add.id)
+			return httpResponseRedirect('/marca/%'%add.id)
 	else:
 		formulario =add_marca_form()
 	ctx ={'form':formulario, 'informacion':info}
